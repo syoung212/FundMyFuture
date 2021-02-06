@@ -264,10 +264,20 @@ border-radius: 58px;
   height: 45px;
   left: 500px;
   top: 159px;
-
   background: #CCEDFE;
 }
 
+.hero__img {
+  position:absolute;right:900px; top:380px;
+  width: 500px;
+  height: 400px;
+}
+
+.hero__img2 {
+  position:absolute;left:900px; top: 555px;
+  width: 400px;
+  height: 300px;
+}
 
 .highlight {
   border-bottom: 4px solid rgb(26, 149, 180);
