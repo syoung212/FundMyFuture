@@ -12,8 +12,29 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia (serif)  ', sans-serif;
+        scroll-behavior: smooth;
+    }
+    #info {
+        background: #ccffff;
+        background: linear-gradient(to right, #78d1c7, #e6fffa);
+        padding: 10px 0;
+        color: #077386;
+    }
+    #paragraph {
+        background: #ffffff;
+        background: linear-gradient(to right, #78d1c7, #d3f5ee);
+        padding: 10px 0;
+        color: #000000;
+    }
+</style>
   <body>
-    <div class="main__content">
+    <div class="main__content" id="info">
         <button class="main__btn"><a href="map.html">Back to Map</a></button>
     </div>
     <!-- College Information Section -->
@@ -32,16 +53,18 @@
       </div>
 
       <div class="scholarships&grants">
-        <h2>Scholarship & Grants</h2>
-          <p>The Presidential Scholarship, The provost scholarship, The 1783 Scholarship, The John Dickinson scholarship, The benjamin rush scholarship, Community College Partnership Program, Dickinson-Carlisle Scholarship, Dickinson-CET Global Leaders Scholarship, National Merit Finalists, Yellow Ribbon Program, The Inge Paul And John R. Stafford Scholarship for Bioinformatics, Public Service Fellowship, Pennsylvania State Grant, Fostering Independence Tuition Waiver Program</p>
+        <h2>Scholarship & Grants:</h2>
+          <p id="paragraph">The Presidential Scholarship, The provost scholarship, The 1783 Scholarship, The John Dickinson scholarship, The benjamin rush scholarship, Community College Partnership Program, Dickinson-Carlisle Scholarship, Dickinson-CET Global Leaders Scholarship, National Merit Finalists, Yellow Ribbon Program, The Inge Paul And John R. Stafford Scholarship for Bioinformatics, Public Service Fellowship, Pennsylvania State Grant, Fostering Independence Tuition Waiver Program</p>
       </div>
 
       <div class="employment">
-        <p>Work Study Program</p>
+        <h2>Employment:</h2>
+        <p id="paragraph"> Work Study Program</p>
       </div>
 
       <div class="loans">
-        <p>The Federal Direct Subsidized Loan, The Abe and Cora Hurwitz student loan</p>
+        <h2>Loans:</h2>
+        <p id="paragraph">The Federal Direct Subsidized Loan, The Abe and Cora Hurwitz student loan</p>
       </div>
 
       <script src="app.js"></script>

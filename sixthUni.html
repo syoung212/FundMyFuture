@@ -12,8 +12,29 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia (serif)  ', sans-serif;
+        scroll-behavior: smooth;
+    }
+    #info {
+        background: #ccffff;
+        background: linear-gradient(to right, #78d1c7, #e6fffa);
+        padding: 10px 0;
+        color: #077386;
+    }
+    #paragraph {
+        background: #ffffff;
+        background: linear-gradient(to right, #78d1c7, #d3f5ee);
+        padding: 10px 0;
+        color: #000000;
+    }
+</style>
   <body>
-    <div class="main__content">
+    <div class="main__content" id="info">
         <button class="main__btn"><a href="map.html">Back to Map</a></button>
     </div>
     <!-- College Information Section -->
@@ -33,15 +54,15 @@
 
       <div class="scholarships&grants">
         <h2>Scholarship & Grants</h2>
-          <p>Drexel Merit Scholarship, Westphal Portfolio Scholarship, Drexel Athletic Scholarships, Drexel Global Scholar Program, Drexel Legacy Scholarship, Drexel Liberty Scholars, Drexel Performing Arts Scholarships, Materials Summer Institute Scholarship, Phi Theta Kappa (PTK) Scholarship, ROTC Scholarships, A Better Chance Scholarship, Delaware Valley Science Fair Winners Scholarships, Drexel Distinguished Service Scholarship, Eagles Fly for Leukemia Scholarship, Intel Science and Engineering Fair, Maguire Scholars College Program</p>
+          <p id="paragraph">Drexel Merit Scholarship, Westphal Portfolio Scholarship, Drexel Athletic Scholarships, Drexel Global Scholar Program, Drexel Legacy Scholarship, Drexel Liberty Scholars, Drexel Performing Arts Scholarships, Materials Summer Institute Scholarship, Phi Theta Kappa (PTK) Scholarship, ROTC Scholarships, A Better Chance Scholarship, Delaware Valley Science Fair Winners Scholarships, Drexel Distinguished Service Scholarship, Eagles Fly for Leukemia Scholarship, Intel Science and Engineering Fair, Maguire Scholars College Program</p>
       </div>
 
       <div class="employment">
-        <p>Work Study Program</p>
+        <p id="paragraph">Work Study Program</p>
       </div>
 
       <div class="loans">
-        <p>Direct Subsidized and Unsubsidized Loans, Direct Parent PLUS Loans, Private Education Loan Programs</p>
+        <p id="paragraph">Direct Subsidized and Unsubsidized Loans, Direct Parent PLUS Loans, Private Education Loan Programs</p>
       </div>
 
       <script src="app.js"></script>
