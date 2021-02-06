@@ -268,15 +268,9 @@ border-radius: 58px;
 }
 
 .hero__img {
-  position:absolute;right:900px; top:380px;
-  width: 500px;
-  height: 400px;
-}
-
-.hero__img2 {
-  position:absolute;left:900px; top: 555px;
-  width: 400px;
-  height: 300px;
+  position:absolute;right:900px; top:480px;
+  width: 200px;
+  height: 200px;
 }
 
 .highlight {
