@@ -53,7 +53,7 @@
 }
 
 .navbar__item {
-  height: 80px;
+  height: 54px;
 }
 
 .navbar__links {
@@ -65,6 +65,8 @@
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+  opacity: 0.6;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .navbar__btn {
@@ -73,6 +75,8 @@
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  opacity: 0.6;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .button {
@@ -86,7 +90,7 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #44679c;
+  background: #A2DCEE;
   background: -webkit-linear-gradient(to right, #45f6fc, #54ad81, #9be5ab);
   background: linear-gradient(to right, #44b9ce, #15afa2, #2bb1bb);
   color: #fff;
@@ -98,6 +102,12 @@
   color: #002929;
   transition: all 0.3s ease;
   font-weight: bold;
+}
+
+.nav__img {
+  position:absolute;left:0px; bottom:-10px;
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 960px) {
@@ -594,6 +604,97 @@
   }
 }
 
+/* College Info CSS */
+.collegeinfo{
+  background: #2998d8;
+  background: linear-gradient(to right, #78d1c7, #e6fffa);
+  padding: 200px 0;
+}
+
+.collegeinfo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+.collegeinfo__heading {
+  font-size: 100px;
+  margin-bottom: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.collegeinfo__heading span {
+  background: #09ccee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #67b9b9,
+    hsl(190, 65%, 24%)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #14918b,
+    #50ccbb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+  text-shadow: 50px 50px 50px #ffffff;
+}
+
+.collegeinfo__description {
+  font-size: 60px;
+  background: #09ccee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #67b9b9,
+    hsl(190, 65%, 24%)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #21746f,
+    #0f5047
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.collegeinfo__img {
+  position:absolute;left:0px; bottom:100px;
+  width: 700px;
+  height: 600px;
+}
+
+.collegeinfo__img2 {
+  position:absolute;left:1300px; bottom: 124px;
+  width: 400px;
+  height: 300px;
+}
+
+.highlight {
+  border-bottom: 4px solid rgb(26, 149, 180);
+}
+
+@media screen and (max-width: 768px) {
+  .collegeinfo__heading {
+    font-size: 60px;
+  }
+
+  .collegeinfo__description {
+    font-size: 40px;
+  }
+}
 /* Footer CSS */
 .footer__container {
   background-color: #131313;
