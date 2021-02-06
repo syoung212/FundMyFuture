@@ -38,34 +38,18 @@
 
         var markersOnMap =[
             {
-                placeName: 'University of Pennsylvania',
+                placeName: 'Allegheny College',
                 pageName: "firstUni.html",
                 LatLng: [{
-                    lat:39.9522, lng:-75.1932
+                    lat:41.6485, lng:-80.1455
                 }],
                 type:'event'
             },
             {
-                placeName: 'HaverBryn Mawr College',
+                placeName: 'Bryn Mawr College',
                 pageName: "secondUni.html",
                 LatLng: [{
                     lat:40.0279, lng:-75.3145
-                }],
-                type:'event'
-            },
-            {
-                placeName: 'Haverford College',
-                pageName: "thirdUni.html",
-                LatLng: [{
-                    lat:40.0093, lng:-75.3077
-                }],
-                type:'event'
-            },
-            {
-                placeName: 'Allegheny College',
-                pageName: "fourthUni.html",
-                LatLng: [{
-                    lat:41.6485, lng:-80.1455
                 }],
                 type:'event'
             },
@@ -98,6 +82,126 @@
                 pageName: "eighthUni.html",
                 LatLng: [{
                     lat:39.9566, lng:-75.1899
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Franklin & Marshall College',
+                pageName: "eighthUni.html",
+                LatLng: [{
+                    lat:40.0502, lng:-76.3178
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Gettysburg College',
+                pageName: "eighthUni.html",
+                LatLng: [{
+                    lat:39.8357, lng:-77.2356
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Haverford College',
+                pageName: "thirdUni.html",
+                LatLng: [{
+                    lat:40.0093, lng:-75.3077
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Juniata College',
+                pageName: "thirdUni.html",
+                LatLng: [{
+                    lat:40.5001, lng:-78.0159
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Lafayette College',
+                pageName: "thirdUni.html",
+                LatLng: [{
+                    lat:40.6983, lng:-75.2097
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Lehigh University',
+                pageName: "thirdUni.html",
+                LatLng: [{
+                    lat:40.6049, lng:-75.3775
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Muhlenberg College ',
+                pageName: "thirdUni.html",
+                LatLng: [{
+                    lat:40.5975, lng:-75.5101
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'University of Pennsylvania',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:39.9522, lng:-75.1932
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Penn State University',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.7982, lng:-77.8599
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'University of Pittsburgh',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.4444, lng:-79.9608
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Susquehanna University',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.7961, lng:-76.8774
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Swarthmore College',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:39.9038, lng:-75.3527
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Ursinus College',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.1940, lng:-75.4563
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Villanova University',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.0369, lng:-75.3426
+                }],
+                type:'event'
+            },
+            {
+                placeName: 'Washington & Jefferson College',
+                pageName: "firstUni.html",
+                LatLng: [{
+                    lat:40.1706, lng:-80.2403
                 }],
                 type:'event'
             }
@@ -138,7 +242,7 @@
 
         function initMap() {
             map = new google.maps.Map(document.getElementById("map"),{
-                zoom:10,
+                zoom:8.5,
                 center: centerCords
             });
             addMarkerInfo();
