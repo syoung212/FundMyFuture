@@ -261,13 +261,13 @@
 }
 
 .hero__img {
-  position:absolute;left:0px; bottom:100px;
-  width: 700px;
-  height: 600px;
+  position:absolute;right:900px; top:380px;
+  width: 500px;
+  height: 400px;
 }
 
 .hero__img2 {
-  position:absolute;left:1300px; bottom: 124px;
+  position:absolute;left:900px; top: 555px;
   width: 400px;
   height: 300px;
 }
