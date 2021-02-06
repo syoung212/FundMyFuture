@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Georgia (serif)', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -27,6 +27,12 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
+}
+
+.navbar__img {
+  position:absolute;left:0px; bottom:-10px;
+  width: 500px;
+  height: 600px;
 }
 
 #navbar__logo {
@@ -221,17 +227,17 @@
 }
 
 .hero__heading span {
-  background: #09ccee; /* fallback for old browsers */
+  background: #09ccee; 
   background: -webkit-linear-gradient(
     to right,
     #67b9b9,
     hsl(190, 65%, 24%)
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #14918b,
     #50ccbb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -242,17 +248,17 @@
 
 .hero__description {
   font-size: 60px;
-  background: #09ccee; /* fallback for old browsers */
+  background: #09ccee; 
   background: -webkit-linear-gradient(
     to right,
     #67b9b9,
     hsl(190, 65%, 24%)
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #21746f,
     #0f5047
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -261,15 +267,15 @@
 }
 
 .hero__img {
-  position:absolute;left:0px; bottom:100px;
-  width: 700px;
-  height: 600px;
+  position:absolute;left:0px; bottom:-50px;
+  width: 300px;
+  height: 300px;
 }
 
 .hero__img2 {
-  position:absolute;left:1300px; bottom:69px;
-  width: 400px;
-  height: 300px;
+  position:absolute;left:1100px; bottom: 370px;
+  width: 290px;
+  height: 290px;
 }
 
 .highlight {
