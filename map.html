@@ -39,6 +39,7 @@
         var markersOnMap =[
             {
                 placeName: 'University of Pennsylvania',
+                pageName: "firstUni.html",
                 LatLng: [{
                     lat:39.9522, lng:-75.1932
                 }],
@@ -46,6 +47,7 @@
             },
             {
                 placeName: 'HaverBryn Mawr College',
+                pageName: "secondUni.html",
                 LatLng: [{
                     lat:40.0279, lng:-75.3145
                 }],
@@ -53,6 +55,7 @@
             },
             {
                 placeName: 'Haverford College',
+                pageName: "thirdUni.html",
                 LatLng: [{
                     lat:40.0093, lng:-75.3077
                 }],
@@ -60,6 +63,7 @@
             },
             {
                 placeName: 'Allegheny College',
+                pageName: "fourthUni.html",
                 LatLng: [{
                     lat:41.6485, lng:-80.1455
                 }],
@@ -67,6 +71,7 @@
             },
             {
                 placeName: 'Bucknell University',
+                pageName: "fifthUni.html",
                 LatLng: [{
                     lat:40.9548, lng:-76.8851
                 }],
@@ -74,6 +79,7 @@
             },
             {
                 placeName: 'Carnegie Mellon University',
+                pageName: "sixthUni.html",
                 LatLng: [{
                     lat:40.4427, lng:-79.9430
                 }],
@@ -81,6 +87,7 @@
             },
             {
                 placeName: 'Dickinson College',
+                pageName: "seventhUni.html",
                 LatLng: [{
                     lat:40.2027, lng:-77.2008
                 }],
@@ -88,6 +95,7 @@
             },
             {
                 placeName: 'Drexel University',
+                pageName: "eighthUni.html",
                 LatLng: [{
                     lat:39.9566, lng:-75.1899
                 }],
@@ -100,7 +108,7 @@
 
         function addMarkerInfo(){
             for (var i=0;i<markersOnMap.length;i++) {
-                var contentString='<h3>'+markersOnMap[i].placeName+'</h3>'+'<button class="main__btn"><a href="firstUni.html">More Info</a></button>';
+                var contentString='<h3>'+markersOnMap[i].placeName+'</h3>'+'<button class="main__btn"><a href='+markersOnMap[i].pageName+'>More Info</a></button>';
 
                 const marker=new google.maps.Marker({
                     position:markersOnMap[i].LatLng[0],
