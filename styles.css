@@ -29,10 +29,10 @@
   padding: 0 50px;
 }
 
-.navbar__img {
-  position:absolute;left:0px; bottom:-10px;
-  width: 500px;
-  height: 600px;
+.nav_img {
+  position:absolute;left:0px; bottom:0px;
+  width: 20px;
+  height: 20px;
 }
 
 #navbar__logo {
@@ -139,8 +139,14 @@
     height: 60vh;
     font-size: 1.6rem;
   }
+  
+  .nav__img {
+    position:absolute;left:0px; bottom:-10px;
+    width: 10px;
+    height: 20px;
+  }
 
-  #navbar__logo {
+  .navbar__logo {
     padding-left: 25px;
   }
 
