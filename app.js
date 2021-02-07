@@ -54,3 +54,8 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+	   
